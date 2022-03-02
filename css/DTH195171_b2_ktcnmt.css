@@ -1,0 +1,66 @@
+main{
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+header{
+    width: 900px;
+    height: 143px;
+    background: url(../images/banner.jpg);
+}
+section{
+    width: 900px;
+}
+
+aside{
+    width: 210px;
+    float: left;
+}
+aside h2{
+    color: blue;
+    background: url(../images//t_l.gif);
+    height: 30px;
+    font-size: 20px;
+    padding: 5px 0 0 5px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+aside ul{
+    list-style-image: url(../images/li.gif);
+    border: 1px solid #1e90ff;
+    padding: 5px 0px 5px 24px;
+    margin-top: 0px;
+}
+article{
+    width: 670px;
+    float: right;
+    padding: 0px 15px 0px 0px;
+    background: url(../images/bg_post.gif) no-repeat right bottom;
+    
+}
+article p{
+    text-align: justify;
+}
+a:link{
+    color: #1e90ff;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a:visited{
+    color: grey;
+}
+footer{
+    width: 900px;
+    height: 50px;
+    background: #1e90ff;
+    clear: both;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
